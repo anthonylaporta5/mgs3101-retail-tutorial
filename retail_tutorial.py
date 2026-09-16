@@ -5,9 +5,9 @@ pd.set_option('display.width', 1000)
 pd.set_option('display.float_format', lambda value: f'{value:,.2f}')
 
 def demo_pandas_fundamentals():
-      print("\n" + "=" * 70)
-      print("STEP 2: PANDAS FUNDAMENTALS")
-      print("=" * 70)
+    print("\n" + "=" * 70)
+    print("STEP 2: PANDAS FUNDAMENTALS")
+    print("=" * 70)
 
     daily_sales = pd.Series(
               [1250.50, 2100.00, 1850.75, 3200.20, 4100.00],
